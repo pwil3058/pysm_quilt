@@ -96,7 +96,7 @@ class Mercurial:
                     return False
                 else:
                     raise
-        if attr_name == "in_valid_pgnd": return runext.run_cmd(["hg", "root"]).is_ok
+        if attr_name == "in_valid_wspce": return runext.run_cmd(["hg", "root"]).is_ok
     @staticmethod
     def dir_is_in_valid_pgnd(dir_path=None):
         '''Is the current working (or specified) directory in a valid hg repository?'''
