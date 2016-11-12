@@ -386,5 +386,5 @@ class Mercurial:
         return (True, "")
 
 SCM = Mercurial()
-from ..scm_gui import scm_gui_ifce
+from ..scm.gui import scm_gui_ifce
 scm_gui_ifce.add_back_end(SCM)
